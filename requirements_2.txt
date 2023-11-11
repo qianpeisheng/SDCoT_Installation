@@ -1,0 +1,8 @@
+tensorboard
+matplotlib
+opencv-python
+plyfile
+trimesh
+mayavi
+scikit-learn
+easydict
