@@ -6,7 +6,7 @@
  - `AT_CHECK` -> `TORCH_CHECK`.
  - `type().is_cuda()` -> `is_cuda()`.
  - `.data<float>()` -> `.data_ptr<float>()`, and `.data<int>()` -> `.data_ptr<int>()`. Beware of the `.` at front.
- - Use absoluta path for `#include ... .h` if necessary.
+ - Use absolute path for `#include ... .h` if necessary.
 4. Create the virtual environment, `python3 -m venv venv`.
 5. Activate the virtual environment, `source venv/bin/activate`.
 6. Update packages, `pip3 install --upgrade pip setuptools wheel`
