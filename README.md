@@ -4,7 +4,7 @@
 2. Go to the SDCoT folder, `cd SDCoT`.
 3. Replace the following in the `pointnet2` folder to use with CUDA 10.2, Pytorch 1.9.1 or higher. You can use the search tab on the right of VSCode for searching and replacing.
  - `AT_CHECK` -> `TORCH_CHECK`.
- - `type.is_cuda()` -> `is_cuda()`.
+ - `type().is_cuda()` -> `is_cuda()`.
  - `.data<float>()` -> `.data_ptr<float>()`, and `.data<int>()` -> `.data_ptr<int>()`. Beware of the `.` at front.
 4. Create the virtual environment, `python3 -m venv venv`.
 5. Activate the virtual environment, `source venv/bin/activate`.
